@@ -8,14 +8,22 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <ul class="lista">
+    
+    <div class="navbar">
+        <nav>
+            <img src="img/github-mark-white.png"  class="logo">
+              <ul class="lista">
         <li>Inicio</li>
         <li>Comenzar</li>
         <li>Visitar</li>
         <li>Ejemplo</li>
         <li>Más</li>
+        </nav>
+      
     </ul>
 
+    </div>
+    
     <h1>Crear un post</h1>
 	<form class="formulario">
 		<label for="titulo">Título:</label>
@@ -24,11 +32,11 @@
 		<label for="contenido">Contenido:</label>
 		<textarea id="contenido" name="contenido"></textarea><br>
 
-		<button type="button" onclick="enviar()">Enviar</button>
+		<button type="button" onclick="enviar()" class="btn">Enviar</button>
 	</form>
 
-    <h1>Hola Mundo</h1>
-    <h2>Este es una practica dobre git y hithubo y trabajo sobre ramas</h2>
+    <h1 class="hola">Hola Mundo</h1>
+    <h2>Este es una practica sobre Git y Github y trabajo sobre ramas</h2>
     <script src="js/javaScript.js"></script>
 </body>
 </html>
